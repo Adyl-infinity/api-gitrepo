@@ -6,14 +6,14 @@ const NotFound = () => {
   useEffect(() => {}, [])
   const dispatch = useDispatch()
   return (
-    <div className="container main-wrapper aligner">
-      <div className="aligner-item text-center ">
-        <h1 className="display-1">404</h1>
-        <p className="lead text-gray-800 mb-5">Page Not Found</p>
-        <p className="text-gray-500 mb-0">It looks like you found a glitch in the matrix...</p>
-        <br />
+    <div className="container mx-auto">
+      <div className="text-center">
+          <img src="https://i.imgur.com/qIufhof.png" alt="not found" width="300"  className="inline" />
+          <div id="info">
+            <h3>This page could not be found</h3>
+          </div>
         <button
-          className="btn btn-secondary btn-lg"
+          className="btn btn-secondary btn-lg bg-yellow-400 p-2 rounded mt-3 "
           type="button"
           tabIndex="0"
           onClick={() => {
