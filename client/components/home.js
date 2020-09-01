@@ -7,7 +7,7 @@ const Home = () => {
       <Head title="Hello" />
       <div className="flex items-center justify-center h-screen">
         <div className="bg-yellow-400  font-bold rounded-lg border shadow-lg p-10">
-        My first REACT home component
+          My first REACT home component
         </div>
       </div>
     </div>
